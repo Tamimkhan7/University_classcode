@@ -3,8 +3,10 @@ using namespace std;
 int main()
 {
     int n, sum = 0;
+    cout<<"Size of the array :";
     cin >> n;
     int arr[n];
+    cout<<"Enter the array from user :";
     for (int i = 0; i < n; i++)
     {
         cin >> arr[i];
@@ -13,7 +15,7 @@ int main()
     {
         sum += arr[i];
     }
-    cout << sum << endl;
+    cout << "summation is :" <<sum << endl;
     int ave = sum / n;
-    cout << ave << endl;
+    cout << "average is :" <<ave << endl;
 }

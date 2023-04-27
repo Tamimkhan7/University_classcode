@@ -2,12 +2,19 @@
 using namespace std;
 int main()
 {
-    string s;
     int n;
+    cout<<"Size of the array :";
     cin >> n;
+    string s[n];
+    cout<<"Enter the array from user :";
     for (int i = 0; i < n; i++)
     {
-        cin >> s;
-        cout << s << endl;
+        cin >> s[i];
+    }
+    cout<<"Showed my favorite friend :";
+    for (int i = 0; i < n; i++)
+    {
+        cout << s[i] << endl;
+
     }
 }
