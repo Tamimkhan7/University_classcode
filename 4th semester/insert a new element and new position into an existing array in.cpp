@@ -13,18 +13,18 @@ int main()
     {
         cin>> arr[i] ;
     }
-    cout<<"Enter the position of the array :";
+    cout<<"Enter the position insert the value :";
     cin>>pos;
     for (int i = n; i > pos; i--)
     {
         arr[i] = arr[i-1];
     }
 
-    cout<<"Enter the element of the array :";
+    cout<<"Enter the element insert the value :";
 
     cin>>elem;
     arr[pos] = elem;
-    cout << "\nNew array with inserted element: ";
+    cout << "New array with inserted element: ";
     for (int i = 0; i < n+1; i++)
     {
         cout << arr[i] << " ";

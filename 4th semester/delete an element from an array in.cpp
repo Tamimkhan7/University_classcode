@@ -22,7 +22,7 @@ int main()
 
         a[i] = a[i+1];
     }
-
+    cout<<"Showed the final array ";
     for(i = 0; i < n-1; i++)
     {
 
