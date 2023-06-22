@@ -1,10 +1,11 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-int MAX_SIZE = 100;
+int MAX_SIZE = 100; // declare to globally
 int main()
 {
     int arr1[MAX_SIZE], arr2[MAX_SIZE], n;
+    int squared_arr1[MAX_SIZE], squared_arr2[MAX_SIZE];
 
     cout << "Enter the size of the arrays: ";
     cin >> n;
@@ -18,7 +19,6 @@ int main()
     {
         cin >> arr2[i];
     }
-    int squared_arr1[MAX_SIZE], squared_arr2[MAX_SIZE];
     for (int i = 0; i < n; i++)
     {
         squared_arr1[i] = pow(arr1[i], 2);

@@ -5,28 +5,27 @@ int main()
 {
     int n, pos, i;
 
-    cout << "Enter the size of an array ";
-    cin  >> n;
+    // cout << "Enter the size of an array ";
+    cin >> n;
     int a[n];
-    cout << "Enter the value in an array ";
+    // cout << "Enter the value in an array ";
 
     for (i = 0; i < n; i++)
     {
         cin >> a[i];
     }
-    cout << "Enter the position ";
-    cin  >> pos;
+    // cout << "Enter the position ";
+    cin >> pos;
 
-    for(i = pos; i < n; i++)
+    for (i = pos; i < n; i++)
     {
 
-        a[i] = a[i+1];
+        a[i] = a[i + 1];
     }
-    cout<<"Showed the final array ";
-    for(i = 0; i < n-1; i++)
+    // cout<<"Showed the final array ";
+    for (i = 0; i < n - 1; i++)
     {
 
-        cout<<a[i]<<" ";
-
+        cout << a[i] << " ";
     }
 }

@@ -19,6 +19,7 @@ int main()
         cout << arr[i] << " ";
     }
     cout << endl;
+
     sort(arr, arr + n, greater<int>());
 
     cout << "Array sorted in descending order: ";

@@ -7,7 +7,6 @@ int main()
     cin >> n;
     int k = n + n;
     int arr[n], arr2[n], arr3[k];
-    cout << endl;
     cout << "Input from user first array :";
     for (int i = 0; i < n; i++)
     {
